@@ -1,0 +1,14 @@
+/obj/
+/lib/
+/alire/
+/config/
+
+# Unsightly droppings.
+*~
+.DS_Store
+.\#*
+.\#*
+.~
+.~*\#
+\#*\#
+\#*\#

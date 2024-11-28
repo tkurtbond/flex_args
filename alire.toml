@@ -1,0 +1,10 @@
+name = "flex_args"
+description = "Flexible argument parser for intermingled options and arguments."
+version = "0.1.0-dev"
+
+authors = ["T. Kurt Bond"]
+maintainers = ["T. Kurt Bond <tkurtbond@gmail.com>"]
+maintainers-logins = ["tkurtbond"]
+licenses = "ISC"
+website = "https://github.com/tkurtbond/flex_args"
+tags = ["command-line", "cli", "argument-parser"]
