@@ -1,7 +1,7 @@
 with "config/flex_args_config.gpr";
 project Flex_Args is
 
-   for Library_Name use "Flex_Args";
+   for Library_Name use "flexargs";
    for Library_Version use Project'Library_Name & ".so." & Flex_Args_Config.Crate_Version;
 
    for Source_Dirs use ("src/", "config/");
@@ -15,7 +15,8 @@ project Flex_Args is
    for Library_Kind use Library_Type;
 
    package Compiler is
-      for Default_Switches ("Ada") use Flex_Args_Config.Ada_Compiler_Switches;
+      for Default_Switches ("Ada") use Flex_Args_Config.Ada_Compiler_Switches &
+        ("-gnat2012");
    end Compiler;
 
    package Binder is
