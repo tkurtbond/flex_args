@@ -16,7 +16,7 @@ project Flex_Args is
 
    package Compiler is
       for Default_Switches ("Ada") use Flex_Args_Config.Ada_Compiler_Switches &
-        ("-gnat2012");
+        ("-gnatyN", "-gnat2012");
    end Compiler;
 
    package Binder is
